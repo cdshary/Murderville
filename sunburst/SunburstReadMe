@@ -1,0 +1,11 @@
+Emily Boling
+Project #2
+Murderville
+Cristina Shary, Nicole Nguyen, Emily Boling
+data source: https://www.kaggle.com/murderaccountability/homicide-reports
+
+The murder data came from a kaggle collection called The Murder Accountability Project.  It is the most complete database of homicides in the United States currently available. This dataset includes murders from the FBI's Supplementary Homicide Report from 1976 to the present. This dataset includes the age, race, sex, ethnicity of victims and perpetrators, in addition to the relationship between the victim and perpetrator and weapon used.
+
+We selected the time period to analyze as 2000-2014, mainly because we were able to find other data sets that included these years and we wanted to limit the data for processing purposes. For this dataset I was looking for a d3 visual that would show the size of the data.  I found the zoomable sunburst on d3 and thought it was a good way of dumping a lot of data into one visual that is still user friendly and shows the scale of each category. I liked how interactive it was, the user clicks on a category and gets to see the subcategories and their respective values in the pie slices. I also like how easy it is to toggle from one category to the other.
+I ran into some issues with the d3 examples immediately, they were using a bundle file to pull the data from a private online repository.  After a few failed attempts to alter the code I found another example of a zoomable sunburst using an older version of d3 (version 3).  I was able to transform the code to fit our data.  I did have to convert a csv file to a json file but was able to make the visual after that. 
+Once I added the visual to an html file I had some issues formatting the visual, specifically with a drop-down nav bar.  Bootstrap navbars worked fine until we joined our files into one html.
