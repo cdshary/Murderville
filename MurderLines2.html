@@ -1,0 +1,47 @@
+<html>
+    <div class="topnav">
+        <a class="active" href="https://cdshary.github.io/Murderville">Home</a>
+        <a href="https://cdshary.github.io/Murderville/About.html">About</a>
+        <div class="topnav-right">
+        
+            <a href="https://cdshary.github.io/Murderville/sunburst/index.html">Sunburst Visual</a>
+            <a href="https://cdshary.github.io/Murderville/MapDataLayers/index.html">Murder Map</a>
+            <div class="dropdown" style="position: relative; z-index: 20;">
+            <button class="dropbtn">More</button>
+            <div class="dropdown-content">
+                <a href="https://cdshary.github.io/Murderville/MurderLines1.html">Deadliest State</a>
+                <a href="https://cdshary.github.io/Murderville/MurderLines2.html">Most Murderous State</a>
+                <a href="#">Resources</a>
+            </div>
+          </div>
+<head>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-core.min.js"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-cartesian.min.js"></script>
+</head>
+<body>
+<div id="container">
+<script>
+anychart.onDocumentLoad(function() {
+// create the data
+var data = [
+        {x: 'Louisiana', y: 170.91},
+        {x: 'Maryland', y: 126.16},
+        {x: 'Sounth Carolina', y: 104.49},
+        {x: 'Iowa', y: 24.75},
+        {x: 'North Dakota', y: 20.82}
+        {x: 'New Hampshire', y: 16.86}
+    ];
+var chart = anychart.bar(); // create a chart
+chart.title('Top 3 States with Murders and Top 3 Lowest Murders per 100,000'); // create title for the chart
+chart.xAxis().title("States"); // create name for X axis
+chart.yAxis().title("Murders per 100,000"); // create name for Y axis
+var series = chart.bar(data); // create bar series and pass data
+chart.container("container"); // reference the container Id
+chart.draw(); // initiate drawing the bar chart
+  });
+
+</script>
+</div>
+</body>
+</html>
+
