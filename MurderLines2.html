@@ -1,47 +1,46 @@
-<html>
-    <div class="topnav">
-        <a class="active" href="https://cdshary.github.io/Murderville">Home</a>
-        <a href="https://cdshary.github.io/Murderville/About.html">About</a>
-        <div class="topnav-right">
-        
-            <a href="https://cdshary.github.io/Murderville/sunburst/index.html">Sunburst Visual</a>
-            <a href="https://cdshary.github.io/Murderville/MapDataLayers/index.html">Murder Map</a>
-            <div class="dropdown" style="position: relative; z-index: 20;">
-            <button class="dropbtn">More</button>
-            <div class="dropdown-content">
-                <a href="https://cdshary.github.io/Murderville/MurderLines1.html">Deadliest State</a>
-                <a href="https://cdshary.github.io/Murderville/MurderLines2.html">Most Murderous State</a>
-                <a href="#">Resources</a>
-            </div>
-          </div>
-<head>
-<script src="https://cdn.anychart.com/releases/v8/js/anychart-core.min.js"></script>
-<script src="https://cdn.anychart.com/releases/v8/js/anychart-cartesian.min.js"></script>
-</head>
-<body>
-<div id="container">
-<script>
-anychart.onDocumentLoad(function() {
-// create the data
-var data = [
-        {x: 'Louisiana', y: 170.91},
-        {x: 'Maryland', y: 126.16},
-        {x: 'Sounth Carolina', y: 104.49},
-        {x: 'Iowa', y: 24.75},
-        {x: 'North Dakota', y: 20.82}
-        {x: 'New Hampshire', y: 16.86}
-    ];
-var chart = anychart.bar(); // create a chart
-chart.title('Top 3 States with Murders and Top 3 Lowest Murders per 100,000'); // create title for the chart
-chart.xAxis().title("States"); // create name for X axis
-chart.yAxis().title("Murders per 100,000"); // create name for Y axis
-var series = chart.bar(data); // create bar series and pass data
-chart.container("container"); // reference the container Id
-chart.draw(); // initiate drawing the bar chart
-  });
+<div class="topnav">
+<a class="active" href="https://cdshary.github.io/Murderville">Home</a>
+<a href="https://cdshary.github.io/Murderville/About.html">About</a>
+<div class="topnav-right">
 
-</script>
+    <a href="https://cdshary.github.io/Murderville/sunburst/index.html">Sunburst Visual</a>
+    <a href="https://cdshary.github.io/Murderville/MapDataLayers/index.html">Murder Map</a>
+    <div class="dropdown" style="position: relative; z-index: 20;">
+    <button class="dropbtn">More</button>
+    <div class="dropdown-content">
+        <a href="https://cdshary.github.io/Murderville/MurderLines1.html">Deadliest State</a>
+        <a href="https://cdshary.github.io/Murderville/MurderLines2.html">Most Murderous State</a>
+        <a href="#">Resources</a>
+    </div>
+  </div>
+</br>
+  <div id="wrap">
+    </div>
+    <head>
+    <link rel="stylesheet" href="css2.css">
+  </div>
+  <div class="cont">
+      <center>
+    <h1 class="layer1">USA's Most Murderous State: Louisiana </h1></center>
+    <p></p>
+    <center><img src="Plot2.PNG"></center><p>Louisianians are never “getting ready” to do something… they’re “fixin’ to do it.”</p>
+  Razzle Dazzle!!! Our team of data scientist combed through thousands of rows of FBI data on murders throughout the country to find the state with the highest number of murders per 100,000 people. Not sure if we are wholly suprised by how murderous Louisiana is, but we did find the contrast when compared to the rest of the USA to be quite striking.  
+  </p>
+  According to our visual, 2007 was a practiularly expansive year for the famous cemetaries of Louisiana with fresh plots popping up left and right (and all over Baton Rouge, of course -- see our Murder Map to zoom in onto the city). We can't say for sure what contributes to the high number of murders in Lousiana, but we suspect some of these facts might have something to do with it:
+   <ul>&#8226 Drive-through daiquiris are a real thing in Louisiana</ul>
+   <ul>&#8226 Britney Spears was born in Kentwood, LA</ul>
+   <ul>&#8226 A specific law was passed in Louisiana to penalize people who steal crawfish. So if you’re planning a crawfish heist, maybe you should reconsider.</ul>
+   <ul>&#8226 In Louisiana, stealing an alligator could land a person in jail for up to ten years.</ul>
+   <ul>&#8226 There are almost half as many alligators as there are people in Louisiana</ul>
+   <ul>&#8226 Louisiana vending machines have been known to sell Big Az Burgers, boudin, and disposable bowls of shrimp stew</ul>
+   <ul>&#8226 Louisiana is home to a 3-day mud festival, the Louisiana Mudfest</ul>
+   <ul>&#8226 The town of Jean Lafitte was once a hideaway town for pirates</ul>
+
+  Whatever you do, stay away from a drunken game of Razzle Dazzle or you might just end up six feet underground. 
+    
+  </p></p>
+    <p></p><center>
+    <img src="https://i.imgur.com/7XM2GB6.png"></center>
+  </div>
+  
 </div>
-</body>
-</html>
-
