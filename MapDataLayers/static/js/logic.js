@@ -69,7 +69,7 @@ d3.json(homicideJson, function(data) {
         console.log(murderMarkers)
     }
     
-    //Earthquake layer
+    //Murder layer
     var murderLayer = L.layerGroup(murderMarkers);
     
     // Define a baseMaps object
