@@ -8329,8 +8329,8 @@
         {
           "City": "Marion",
           "FIPS": 1093,
-          "lat": 44.6744,
-          "lon": -88.8902,
+          "lat": 40.5584,
+          "lon": -85.6591,
           "num_incidents": 2359,
           "grad_rate_percentage": 13,
           "mean_income": 47317
@@ -9967,8 +9967,8 @@
         {
           "City": "Orange",
           "FIPS": 6059,
-          "lat": 30.121,
-          "lon": -93.7616,
+          "lat": 33.7175,
+          "lon": -117.8311,
           "num_incidents": 2726,
           "grad_rate_percentage": 40,
           "mean_income": 112291
@@ -9994,8 +9994,8 @@
         {
           "City": "Orleans",
           "FIPS": 36073,
-          "lat": 40.1317,
-          "lon": -99.4551,
+          "lat": 29.9511,
+          "lon": -90.0715,
           "num_incidents": 2968,
           "grad_rate_percentage": 16,
           "mean_income": 74492
